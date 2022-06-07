@@ -16,7 +16,6 @@ const App = () => {
   }
   
 return(<>
-{/* <Input text="kya kar raha h mehnat kar"/> */}
 <Button onMai={koiFunction}/>
 {valueShow.map((el,index) => <h1 key={index} style={{color:'red'}}>{el}</h1>)}
 
